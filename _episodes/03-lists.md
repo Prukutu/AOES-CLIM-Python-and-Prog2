@@ -242,6 +242,7 @@ does not.
 
 > ## Heterogeneous Lists
 > Lists in Python can contain items of different types. Example:
+> 
 > ~~~
 > sample_ages = [10, 12.5, 'Unknown']
 > ~~~
