@@ -240,7 +240,7 @@ sx.set_title("December values for Climate Indices") ;
 ~~~
 {: .language-python}
 
-[! Seaborn line plot](../fig/seaborn_1.png)
+[! Seaborn line plot](../fig/seaborn_1.jpg)
 
 The dark theme with white grid lines is a trademark of **Seaborn** plots.
 
@@ -256,7 +256,7 @@ sns.pairplot(df.query("MONTH == 12")[columns]) ;
 ~~~
 {: .language-python}
 
-[! Seaborn pair plot](../fig/seaborn_2.png)
+[! Seaborn pair plot](../fig/seaborn_2.jpg)
 
 Each index is scattered against every other index. 
 Along the diagonal, a scatter plot would result in a perfect correlation and not 
@@ -275,7 +275,7 @@ sns.pairplot(df.query("MONTH == 12")[columns], kind="kde") ;
 ~~~
 {: .language-python}
 
-[! Seaborn pair plot](../fig/seaborn_3.png)
+[! Seaborn pair plot](../fig/seaborn_3.jpg)
 
 
 {% include links.md %}
