@@ -33,10 +33,11 @@ import seaborn as sns
 We will use some of the [monthly climate index data from NOAA](https://psl.noaa.gov/data/climateindices/list/), 
 which has been placed in the `pandas_data` directory with the name: `monthly_climate_indices.csv`
 
-Let's open the file as a Pandas DataFrame and have a look:
+Let's open the file as a Pandas DataFrame and have a look.
+From a new notebook in your home directory:
 
 ~~~
-file = "classes/clim680_2022/pandas_data/monthly_climate_indices.csv"
+file = "pandas_data/monthly_climate_indices.csv"
 df = pd.read_csv(file)
 df
 ~~~
